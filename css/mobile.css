@@ -210,3 +210,22 @@
         display: none;
     }
 }
+@media all and (min-width: 500px) {
+    .p {
+        font-weight: bold;
+        position: fixed;
+        top: 20%;
+        left: 40%;
+        border: 3px solid blueviolet;
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        padding: 50px;
+        font-size: 25px;
+    }
+    header,
+    .content,
+    .control {
+        display: none;
+    }
+}
