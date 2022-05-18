@@ -169,6 +169,7 @@
         clear: both;
     }
     .playing>p {
+      width: 60px;
         margin: 0%;
         color: rgb(24, 18, 18);
     }
@@ -191,6 +192,7 @@
         margin-right: 10px;
     }
     .controls>i {
+      margin: 0%;
         margin-right: 10px;
         color: rgb(240, 83, 21);
         font-size: 1.0em;
