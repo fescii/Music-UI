@@ -130,8 +130,8 @@
         right: 1px;
         background-color: rgb(187, 201, 238);
         margin: 5px;
-        width: 95%;
-        height: 38px;
+        width: 96%;
+        height: 40px;
         border-radius: 50px;
         -webkit-border-radius: 50px;
         -moz-border-radius: 50px;
@@ -165,11 +165,10 @@
         margin-top: 3px;
         margin-right: 15px;
         padding-left: 5px;
-        line-height: 15px;
+        line-height: 13px;
         clear: both;
     }
     .playing>p {
-      width: 90px;
         margin: 0%;
         color: rgb(24, 18, 18);
     }
