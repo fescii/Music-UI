@@ -1,0 +1,205 @@
+@media all and (max-width: 500px) {
+    html {
+        /*margin: 5px;*/
+        margin: 0%;
+    }
+    /* HEADER*/
+    header {
+        position: fixed;
+        top: 0px;
+        left: 2px;
+        right: 2px;
+        background-color: rgb(255, 255, 255);
+    }
+    .op {
+        /*background-color: aqua;*/
+        padding: 10px;
+        margin-right: 10px;
+        padding: 5px;
+        float: right;
+    }
+    .op>span {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .music {
+        margin: 0%;
+        margin-bottom: 5px;
+        padding: 5px;
+        padding-left: 10px;
+        font-size: 1.8em;
+        font-weight: bold;
+        color: rgb(240, 83, 21);
+    }
+    .search>i,
+    .dots>i {
+        font-size: 1.0em;
+        font-weight: bold;
+        color: rgb(58, 58, 58);
+    }
+    ul {
+        margin: 0%;
+        border-bottom: 0.02px solid rgb(77, 75, 75);
+        display: flex;
+        padding: 0%;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    .linked-list>li {
+        display: inline-block;
+        padding-bottom: 5px;
+        font-weight: bold;
+    }
+    .linked-list>li a {
+        text-decoration: none;
+        color: rgb(37, 26, 26);
+    }
+    .linked-list>li:first-child {
+        margin-left: 10px;
+    }
+    .active {
+        border-bottom: 3.5px solid rgb(240, 83, 21);
+    }
+    .active a {
+        color: rgb(240, 83, 21) !important;
+    }
+    /* HEADER eND */
+    /* CONTENT START*/
+    .content {
+        margin-top: 86px;
+        background-color: white;
+    }
+    .content>div {
+        margin-left: 10px;
+    }
+    .quality {
+        font-size: 0.6em;
+        display: inline-block;
+        background-color: rgba(240, 151, 151, 0.527);
+        color: rgb(240, 83, 21);
+        padding: 1px;
+        padding-left: 2px;
+        padding-right: 2px;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+    }
+    .song {
+        box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+    .title {
+        box-sizing: border-box;
+        margin: 0%;
+    }
+    .artist,
+    .album {
+        box-sizing: border-box;
+        margin: 0%;
+        display: inline-block;
+        /* margin-left: 5px;*/
+        color: rgb(58, 57, 57);
+        font-size: 0.8em;
+    }
+    .fun {
+        box-sizing: border-box;
+        float: right;
+        margin-right: 5px;
+    }
+    .fun>i {
+        font-weight: bold;
+        color: rgb(102, 98, 98);
+    }
+    .current>p,
+    .current>span,
+    .current>i,
+    .current>.fun i {
+        color: rgb(240, 83, 21);
+    }
+    section {
+        position: fixed;
+        bottom: 1px;
+        padding: 5px;
+        left: 1px;
+        right: 1px;
+        background-color: rgb(187, 201, 238);
+        margin: 5px;
+        width: 95%;
+        height: 38px;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+    .cover {
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        float: left;
+        border: 2px solid rgb(240, 83, 21);
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+    .cover>img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+    .playing {
+        display: inline-block;
+        margin: 0%;
+        margin-top: 3px;
+        margin-right: 15px;
+        padding-left: 5px;
+        line-height: 15px;
+        clear: both;
+    }
+    .playing>p {
+        margin: 0%;
+        color: rgb(24, 18, 18);
+    }
+    .playing>span {
+        display: inline-block;
+        padding-left: 10px;
+        font-size: 0.9em;
+        color: rgb(41, 35, 33);
+    }
+    .controls,
+    .time {
+        display: inline-block;
+    }
+    .controls {
+        float: right;
+        margin: 10px;
+        margin-right: 20px;
+    }
+    .controls>button {
+        margin-right: 10px;
+    }
+    .controls>i {
+        margin-right: 10px;
+        color: rgb(240, 83, 21);
+        font-size: 1.0em;
+        font-weight: bold;
+    }
+    .time {
+        color: rgb(17, 132, 226);
+    }
+    .rwd,
+    .fwd,
+    .stop {
+        display: none;
+    }
+}
